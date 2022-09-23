@@ -73,10 +73,6 @@ img {
     overflow: hidden;
 }
 
-.sidebar img {
-    width: 17%;
-}
-
 .bloc {
     display: block;
     background-color: #FFFFFF;
@@ -88,19 +84,19 @@ img {
     width: 100%;
 }
 
-.icons {
+section, .icons {
     padding: 2em 0;
 }
 
-.icons small {
+section small {
     color: var(--color);
 }
 
-.icons:last-child {
+section:last-child {
     padding-bottom: 0;
 }
 
-.icons:not(:last-child) {
+section:not(:last-child) {
     border-bottom: 1px solid rgb(204, 204, 204);
 }
 
